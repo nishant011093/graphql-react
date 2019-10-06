@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.select-container {
+  margin: 2rem;
+  display: grid;
+}
+
+.continent-list {
+  font-size: 2rem;
+  color: #FFFFFF;
+  border: 1px solid #000000;
+  margin: 1rem auto;
+  width: fit-content;
+}
+
+.select-header {
+  margin: 0 auto;
+}
+
+.list-group-item {
+  cursor: pointer;
+  background-color: #33b5e5 !important;
+}
+
+.list-group-item:hover {
+  /*cursor: pointer;*/
+  background-color: #0099cc !important;
+}
+
+.country-details {
+  border: 1px solid #000000;
+}
+
+.value {
+  float: right;
+}
+
+tr {
+  border: 1px solid lightgrey;
+}
+
+.table td {
+  border-top: 0px !important;
+}
+
+.card {
+  margin-top: 2rem;
+  height: 22rem;
+}
+
+.countries-container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-title {
+  height: 3rem;
+}
+
+.container {
+  display: grid;
+}
+
+.continent {
+  margin: 0 auto;
+}
+
